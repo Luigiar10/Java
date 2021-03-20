@@ -14,7 +14,7 @@ public class OperadoresLogicos {
         String scanPassword = scanP.next();
 
         if (scanUser.equals(userName) && scanPassword.equals(password)){
-            System.out.println("Bienvenido al sistema");
+            System.out.printf("%s Bienvenido al sistema", userName);
         } else {
             System.out.println("Ha ocurrido un problema, verifique usuario y contraseña");
         }
