@@ -11,7 +11,7 @@ public class Variables {
         char inicialNombre = 'L';
         System.out.println("Letra Inicial Nombre: " + inicialNombre);
         /** Desde la version 10 se puede usar la palabra var, esto sirve para asignar el tipo
-         * de dato dependiedno del valor */
+         * de dato dependiendo del valor */
         var edad2 = 19;
         System.out.println("edad2: " + edad2);
     }
